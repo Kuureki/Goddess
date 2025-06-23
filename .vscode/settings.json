@@ -1,0 +1,73 @@
+{
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineNumbers": "interval",
+  "editor.renderWhitespace": "boundary",
+
+  "workbench.colorTheme": "Oscura Midnight",
+  "workbench.tree.indent": 10,
+
+  "window.title": "${rootName}",
+
+  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "editor.fontFamily": "'SF Mono', 'Fira Code'",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/build": true,
+    "**/node_modules": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/out/**": true,
+    "**/.turbo/**": true,
+    "**/.next/**": true
+  },
+
+  "typescript.tsserver.maxTsServerMemory": 1024,
+
+  "terminal.integrated.localEchoStyle": "dim",
+  "cSpell.words": ["Kuureki"]
+}
