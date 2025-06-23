@@ -8,9 +8,18 @@
   <img src="https://img.shields.io/badge/Status-In%20Progress-8A2BE2?style=for-the-badge&labelColor=000000" alt="Status In Progress" />
 </p>
 
+## Stats
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Kuureki/Goddess?style=for-the-badge&color=8A2BE2&labelColor=000000" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/Kuureki/Goddess?style=for-the-badge&color=8A2BE2&labelColor=000000" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/issues/Kuureki/Goddess?style=for-the-badge&color=8A2BE2&labelColor=000000" alt="GitHub Issues" />
+  <img src="https://img.shields.io/github/last-commit/Kuureki/Goddess?style=for-the-badge&color=8A2BE2&labelColor=000000" alt="Last Commit" />
+</p>
+
 <br>
 
-**Goddess** is a full-featured Next.js starter designed to help you build amazing projects 🔥. This project will serve as an **automatic image board with automatic image tagging features**, with future plans to offer **reverse image search**. It's built upon a solid foundation.
+**Goddess** is a full-featured Waifu Image Board. This project will serve as an **automatic image board with automatic image tagging features**, with future plans to offer **reverse image search**. It's built upon a solid foundation.
 
 - 🚀 **Next.js 15 App Router & React 18**
 - ⚙️ **Tailwind CSS 4** - A utility-first CSS framework
@@ -22,7 +31,7 @@
 
 ## 🚀 Getting Started
 
-[ ] Add getting started guide
+- Add getting started guide
 
 ---
 
