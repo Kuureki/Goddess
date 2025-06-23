@@ -1,5 +1,7 @@
 import fetch from 'ky';
 
+import { logger } from '../structure/logger';
+
 export interface AutoTaggerOptions {
   file: File;
   format: 'json';
@@ -22,7 +24,7 @@ export async function tag({ file, format }: AutoTaggerOptions) {
 
   if (response.ok) {
     const data = await response.json();
-    console.log(data);
+    logger.info('AutoTagger:', data);
   } else {
     console.error('Failed to tag file:', response.statusText);
   }
