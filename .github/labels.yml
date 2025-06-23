@@ -1,0 +1,95 @@
+- name: 'breaking-change'
+  color: 993399
+  description: 'A change that alters the API or breaks backward compatibility for users.'
+
+- name: 'bugfix'
+  color: CC33CC
+  description: 'Inconsistencies or issues that will cause a problem for users or implementers.'
+
+- name: 'new-feature'
+  color: 663399
+  description: 'Introduces new features or options.'
+
+- name: 'enhancement'
+  color: 9966CC
+  description: 'An improvement to existing code without introducing new features.'
+
+- name: 'refactor'
+  color: 9966CC
+  description: 'Updates the code with simpler, easier-to-understand, or more efficient syntax or methods, without introducing new features.'
+
+- name: 'performance'
+  color: 9966CC
+  description: 'Improves the performance of the project without introducing new features.'
+
+- name: 'documentation'
+  color: 6699CC
+  description: "Pertains solely to the project's documentation."
+
+- name: 'maintenance'
+  color: 339999
+  description: 'Generic maintenance tasks.'
+
+- name: 'ci'
+  color: 9966CC
+  description: 'Work that improves the continuous integration setup.'
+
+- name: 'dependencies'
+  color: 9966CC
+  description: 'Indicates a change in project dependencies.'
+
+- name: 'in-progress'
+  color: CC99FF
+  description: 'The issue is currently being worked on by a developer.'
+
+- name: 'stale'
+  color: E6E6FA
+  description: 'No activity for a significant period.'
+
+- name: 'no-stale'
+  color: E6E6FA
+  description: 'This issue is exempt from the stale bot.'
+
+- name: 'incomplete'
+  color: E6E6FA
+  description: 'Missing information required to proceed.'
+
+- name: 'invalid'
+  color: E6E6FA
+  description: "This is off-topic, spam, or otherwise doesn't apply to this project."
+
+- name: 'security'
+  color: 993399
+  description: 'Addresses a vulnerability or security risk in this project.'
+
+- name: 'beginner-friendly'
+  color: 663399
+  description: 'A good first issue for new contributors.'
+
+- name: 'help-wanted'
+  color: 663399
+  description: 'We need extra hands or expertise to resolve this!'
+
+- name: 'priority-critical'
+  color: 993399
+  description: 'Must be addressed as soon as possible.'
+
+- name: 'priority-high'
+  color: CC33CC
+  description: 'After critical issues are fixed, these should be dealt with before any further issues.'
+
+- name: 'priority-medium'
+  color: 663399
+  description: 'This issue may be useful and needs some attention.'
+
+- name: 'priority-low'
+  color: CC99FF
+  description: 'A nice addition, perhaps for the future.'
+
+- name: 'major'
+  color: CC33CC
+  description: 'This PR causes a major bump in the version number.'
+
+- name: 'minor'
+  color: 663399
+  description: 'This PR causes a minor bump in the version number.'
